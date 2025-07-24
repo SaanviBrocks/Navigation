@@ -18,9 +18,13 @@ struct ContentView: View {
                 NavigationLink(destination: AboutView()){
                     Text("About")
                 }
-                NavigationLink(destination:Text("hi")){
+                NavigationLink(destination: ContactView()){
                     Text("Contact")
                 }
+                NavigationLink(destination: HelpView()){
+                    Text("Help")
+                }
+                
             }
             .navigationTitle("Home")
             .navigationBarTitleDisplayMode(.inline)
